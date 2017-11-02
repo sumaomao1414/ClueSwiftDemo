@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.1.0)
+  - DZNEmptyDataSet (1.8.1)
+  - HandyJSON (1.2.1)
+  - MJExtension (3.0.13)
+  - SDCycleScrollView (1.73):
+    - SDWebImage (~> 4.0.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SnapKit (3.0.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.1.0)
+  - DZNEmptyDataSet
+  - HandyJSON (~> 1.2.1)
+  - MJExtension
+  - SDCycleScrollView (~> 1.64)
+  - SnapKit (~> 3.0.2)
+
+SPEC CHECKSUMS:
+  Alamofire: e266cf991b933498df791e645e0d8ac294492153
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  HandyJSON: c20190bca46cc6e7fb87073df63ecbe90770a7b0
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  SDCycleScrollView: d0fd5fe40a80918371fd8939214eb3be81033d83
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+
+PODFILE CHECKSUM: fbfc976db69fdee6210930b534ca28447162c1ca
+
+COCOAPODS: 1.0.1
