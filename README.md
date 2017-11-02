@@ -1,4 +1,4 @@
 # ClueSwiftDemo
 
 
-sweft 练习Demo
+swift 练习Demo
