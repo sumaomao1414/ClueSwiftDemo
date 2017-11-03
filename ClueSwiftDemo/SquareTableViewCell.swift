@@ -61,7 +61,7 @@ class SquareTableViewCell: UITableViewCell {
         
         //        contentLabel.numberOfLines  我们的要求是最多三行  如果需要全部显示的话，可以设置为0
         
-        contentLabel.numberOfLines = 0
+        //contentLabel.numberOfLines = 0
         
         //        运用九宫格排序来对图片进行排列
         let kSpace = CGFloat(7)//图片之间的间隙

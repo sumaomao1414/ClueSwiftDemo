@@ -87,7 +87,7 @@
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <inset key="imageEdgeInsets" minX="-3" minY="0.0" maxX="0.0" maxY="0.0"/>
-                        <state key="normal" title="浏览 · 99万+" image="browse_icon_default">
+                        <state key="normal" title="官方回复" image="browse_icon_default">
                             <color key="titleColor" red="0.3921109438" green="0.39218336339999998" blue="0.39210647339999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </state>
                     </button>
@@ -102,14 +102,14 @@
                             <color key="titleColor" red="0.39436713690000003" green="0.3985183699" blue="0.3985183699" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </state>
                     </button>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tag_icon_default" translatesAutoresizingMaskIntoConstraints="NO" id="M55-rG-hQm">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="address" translatesAutoresizingMaskIntoConstraints="NO" id="M55-rG-hQm">
                         <rect key="frame" x="24" y="175" width="15" height="15"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="15" id="KVR-fX-eci"/>
                             <constraint firstAttribute="width" constant="15" id="k2l-pm-waF"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="鼻部修复  鼻部综合" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j5e-20-FF1">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="杭州市西湖区学院路50号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j5e-20-FF1">
                         <rect key="frame" x="47" y="172" width="304" height="21"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="21" id="QGu-aQ-yfK"/>
@@ -139,7 +139,7 @@
                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="1"/>
                         <inset key="imageEdgeInsets" minX="-8" minY="0.0" maxX="0.0" maxY="0.0"/>
-                        <state key="normal" title="评论 · 9860" image="comment_icon_default">
+                        <state key="normal" title="评论 · 9860" image="concerned">
                             <color key="titleColor" red="0.3880981201" green="0.39218336339999998" blue="0.39218336339999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </state>
                     </button>
@@ -195,10 +195,10 @@
         </tableViewCell>
     </objects>
     <resources>
+        <image name="address" width="20" height="20"/>
         <image name="browse_icon_default" width="16" height="16"/>
-        <image name="comment_icon_default" width="16" height="16"/>
+        <image name="concerned" width="20" height="20"/>
         <image name="guanzhu" width="16" height="16"/>
-        <image name="tag_icon_default" width="16" height="16"/>
         <image name="user" width="18" height="18"/>
         <image name="zan" width="14" height="13"/>
     </resources>
