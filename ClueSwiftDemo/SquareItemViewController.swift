@@ -27,7 +27,7 @@ import UIKit
         
         var mainTableView = UITableView()
         //    数据源
-        var mainTableArr = NSMutableArray()
+        //var mainTableArr = NSMutableArray()
         mainTableView = UITableView.init(frame: CGRect(x: 0, y: 0, width: kSCREEN_WIDTH, height: kSCREEN_HEIGHT - 64 ), style: .plain)
         mainTableView.dataSource = self;
         mainTableView.delegate = self;
@@ -50,11 +50,13 @@ extension   SquareItemViewController:UITableViewDataSource,UITableViewDelegate{
         let cell : SquareTableViewCell = tableView.dequeueReusableCell(withIdentifier: identyfierTable1, for: indexPath) as! SquareTableViewCell
         cell.selectionStyle = .default
         
-        var num = Int(arc4random_uniform(6))+1
-        if num == 0 {
-            num = 7
-        }
+       // let num  = 0
         
+        var num = Int(arc4random_uniform(6))+1
+        if num == 1 {
+            num = 0
+        }
+
         if indexPath.row == 0 {
             num = 8
         }

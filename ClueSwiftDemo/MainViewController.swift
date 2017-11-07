@@ -14,13 +14,15 @@ class MainViewController: UITabBarController {
     fileprivate let titles:[String] = ["首页","广场","","公告","我的"]
     fileprivate let normalImgNames:[String] = ["home","square","publish","announcement","my"]
     fileprivate let selectedImgNames:[String] = ["home_click","square_click","publish","announcement_click","my_click"]
-    fileprivate let VCs:[UIViewController] = [HomeViewController(),SquareViewController(),BrokeViewController(),NoticeViewController(),MineViewController()]
+    fileprivate let VCs:[UIViewController] = [HomeViewController(),SquareViewController(),BrokeViewController(),NoticeViewController(),UIStoryboard(name: "Mine", bundle: nil).instantiateInitialViewController() as! MineViewController]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         setUpUI()
     }
+    
+    
 }
 
 extension MainViewController{

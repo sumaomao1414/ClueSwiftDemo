@@ -12,6 +12,7 @@
 		2E829AF01FAB1367005513CA /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E829AEF1FAB1367005513CA /* GlobalVariables.swift */; };
 		2E829AF21FAB25DE005513CA /* SquareTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E829AF11FAB25DE005513CA /* SquareTableViewCell.swift */; };
 		2E829AF41FAB260B005513CA /* SquareTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E829AF31FAB260B005513CA /* SquareTableViewCell.xib */; };
+		2E829AF61FAC1397005513CA /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E829AF51FAC1397005513CA /* Mine.storyboard */; };
 		2EE85D171FA183A600BE8F79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE85D161FA183A600BE8F79 /* AppDelegate.swift */; };
 		2EE85D191FA183A600BE8F79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE85D181FA183A600BE8F79 /* ViewController.swift */; };
 		2EE85D1C1FA183A600BE8F79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE85D1A1FA183A600BE8F79 /* Main.storyboard */; };
@@ -65,6 +66,7 @@
 		2E829AEF1FAB1367005513CA /* GlobalVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
 		2E829AF11FAB25DE005513CA /* SquareTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareTableViewCell.swift; sourceTree = "<group>"; };
 		2E829AF31FAB260B005513CA /* SquareTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SquareTableViewCell.xib; sourceTree = "<group>"; };
+		2E829AF51FAC1397005513CA /* Mine.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
 		2EE85D131FA183A600BE8F79 /* ClueSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClueSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EE85D161FA183A600BE8F79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EE85D181FA183A600BE8F79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -247,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				2EE85D4F1FA184D600BE8F79 /* MineViewController.swift */,
+				2E829AF51FAC1397005513CA /* Mine.storyboard */,
 			);
 			name = Mine;
 			sourceTree = "<group>";
@@ -456,6 +459,7 @@
 				2EE85D211FA183A600BE8F79 /* LaunchScreen.storyboard in Resources */,
 				2EE85D731FA6CB7900BE8F79 /* placeholder.png in Resources */,
 				2EE85D5B1FA1B32000BE8F79 /* Assets.xcassets in Resources */,
+				2E829AF61FAC1397005513CA /* Mine.storyboard in Resources */,
 				2EE85D1C1FA183A600BE8F79 /* Main.storyboard in Resources */,
 				2EE85D791FA8524F00BE8F79 /* HomeCell.xib in Resources */,
 			);
@@ -784,7 +788,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = ClueSwiftDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tianque.ClueSwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -803,7 +807,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = ClueSwiftDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tianque.ClueSwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
