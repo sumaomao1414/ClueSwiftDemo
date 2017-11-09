@@ -28,7 +28,7 @@ class SquareViewController: BaseViewController {
     
     lazy var pageMagager:PageManagerVC = {
         
-        let manager = PageManagerVC.init(superController: self, childControllerS: [SquareItemViewController(),SquareItemViewController(),SquareItemViewController(),SquareItemViewController(),SquareItemViewController(),SquareItemViewController(),SquareItemViewController(),SquareItemViewController(),SquareItemViewController(),SquareItemViewController(),])
+        let manager = PageManagerVC.init(superController: self, childControllerS: [SquareItemViewController(),UIStoryboard(name: "SquareSecondItemVC", bundle: nil).instantiateInitialViewController() as! SquareSecondItemVC,SquareItemViewController(),SquareItemViewController(),SquareItemViewController(),SquareItemViewController(),SquareItemViewController(),SquareItemViewController(),SquareItemViewController(),SquareItemViewController(),])
         manager.delegate = self
         self.view.addSubview(manager.view)
         return manager

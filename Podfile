@@ -6,7 +6,7 @@ target 'ClueSwiftDemo' do
   use_frameworks!
 
   # Pods for ClueSwiftDemo
-  pod 'Alamofire'
+  pod 'Alamofire','~>4.1.0'
   pod 'SnapKit'
   pod 'SDCycleScrollView','~> 1.64'
   pod 'HandyJSON', '~> 1.2.1'
@@ -14,6 +14,7 @@ target 'ClueSwiftDemo' do
   pod 'MJExtension'
   pod 'Kingfisher'
   pod 'SKPhotoBrowser'
+  pod 'PGImagePickerKingfisher'
 
   target 'ClueSwiftDemoTests' do
     inherit! :search_paths

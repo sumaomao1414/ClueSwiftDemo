@@ -29,6 +29,21 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>PGActionSheet.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PGImagePicker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PGImagePickerKingfisher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-ClueSwiftDemo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
