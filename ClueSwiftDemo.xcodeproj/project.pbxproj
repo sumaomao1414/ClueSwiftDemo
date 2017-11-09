@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0D78AFCDA1D039904F79A033 /* Pods_ClueSwiftDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3D8004DDE3808F71A7637C /* Pods_ClueSwiftDemoTests.framework */; };
+		2E6AFE971FB1A7CC00E90134 /* NoticeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6AFE961FB1A7CC00E90134 /* NoticeTableViewCell.swift */; };
 		2E829AEE1FAB134D005513CA /* HJImageBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E829AED1FAB134D005513CA /* HJImageBrowser.swift */; };
 		2E829AF01FAB1367005513CA /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E829AEF1FAB1367005513CA /* GlobalVariables.swift */; };
 		2E829AF21FAB25DE005513CA /* SquareTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E829AF11FAB25DE005513CA /* SquareTableViewCell.swift */; };
@@ -62,6 +63,7 @@
 
 /* Begin PBXFileReference section */
 		240BDEFA5250BA032C7FAB55 /* Pods-ClueSwiftDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClueSwiftDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClueSwiftDemoTests/Pods-ClueSwiftDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E6AFE961FB1A7CC00E90134 /* NoticeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeTableViewCell.swift; sourceTree = "<group>"; };
 		2E829AED1FAB134D005513CA /* HJImageBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJImageBrowser.swift; sourceTree = "<group>"; };
 		2E829AEF1FAB1367005513CA /* GlobalVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
 		2E829AF11FAB25DE005513CA /* SquareTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareTableViewCell.swift; sourceTree = "<group>"; };
@@ -139,6 +141,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E6AFE951FB1A7B100E90134 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E6AFE961FB1A7CC00E90134 /* NoticeTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		2EE85D0A1FA183A600BE8F79 = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				2EE85D521FA186DE00BE8F79 /* NoticeViewController.swift */,
+				2E6AFE951FB1A7B100E90134 /* View */,
 			);
 			name = Notice;
 			sourceTree = "<group>";
@@ -621,6 +632,7 @@
 				2EE85D191FA183A600BE8F79 /* ViewController.swift in Sources */,
 				2EE85D171FA183A600BE8F79 /* AppDelegate.swift in Sources */,
 				2EE85D741FA6CB7900BE8F79 /* XRCarouselView.m in Sources */,
+				2E6AFE971FB1A7CC00E90134 /* NoticeTableViewCell.swift in Sources */,
 				2EE85D6C1FA1DCC200BE8F79 /* SquareItemViewController.swift in Sources */,
 				2EE85D691FA1DC8F00BE8F79 /* UIColor+Extension.swift in Sources */,
 				2EE85D531FA186DE00BE8F79 /* NoticeViewController.swift in Sources */,

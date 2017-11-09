@@ -13,7 +13,7 @@ target 'ClueSwiftDemo' do
   pod 'DZNEmptyDataSet'
   pod 'MJExtension'
   pod 'Kingfisher'
-  
+  pod 'SKPhotoBrowser'
 
   target 'ClueSwiftDemoTests' do
     inherit! :search_paths
