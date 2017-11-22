@@ -15,7 +15,7 @@ target 'ClueSwiftDemo' do
   pod 'Kingfisher'
   pod 'SKPhotoBrowser'
   pod 'PGImagePickerKingfisher'
-
+  pod 'ESTabBarController-swift'
   target 'ClueSwiftDemoTests' do
     inherit! :search_paths
     # Pods for testing

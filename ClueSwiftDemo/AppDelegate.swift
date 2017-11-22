@@ -17,8 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         window = UIWindow(frame: UIScreen.main.bounds)
-        let mainVc = MainViewController()
-        
+        let mainVc = ExampleProvider.customIrregularityStyle(delegate: nil)
+            //MainViewController()
+
         window?.rootViewController = mainVc
         window?.backgroundColor = UIColor.white
         window?.makeKeyAndVisible()

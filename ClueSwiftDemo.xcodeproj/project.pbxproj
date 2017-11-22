@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0D78AFCDA1D039904F79A033 /* Pods_ClueSwiftDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3D8004DDE3808F71A7637C /* Pods_ClueSwiftDemoTests.framework */; };
+		2E4C38B31FC2712C003B2D4C /* ExampleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4C38B21FC2712C003B2D4C /* ExampleProvider.swift */; };
+		2E4C38B51FC27385003B2D4C /* ExampleBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4C38B41FC27385003B2D4C /* ExampleBasicContentView.swift */; };
+		2E4C38B71FC2738C003B2D4C /* ExampleBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4C38B61FC2738C003B2D4C /* ExampleBouncesContentView.swift */; };
+		2E4C38B91FC27392003B2D4C /* ExampleIrregularityContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4C38B81FC27391003B2D4C /* ExampleIrregularityContentView.swift */; };
+		2E4C38BA1FC2772E003B2D4C /* ESTabBarController_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4C38BB1FC2772E003B2D4C /* ESTabBarController_swift.framework */; };
+		2E4C38BD1FC27843003B2D4C /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4C38BC1FC27843003B2D4C /* pop.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		2E607FA81FB422B400C60870 /* SquareSecondItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E607FA71FB422B400C60870 /* SquareSecondItemVC.swift */; };
 		2E607FAA1FB4230000C60870 /* SquareSecondItemVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E607FA91FB4230000C60870 /* SquareSecondItemVC.storyboard */; };
 		2E607FAC1FB4250B00C60870 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E607FAB1FB4250B00C60870 /* PhotoViewController.swift */; };
@@ -43,6 +49,7 @@
 		2EE85D771FA8523E00BE8F79 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE85D761FA8523E00BE8F79 /* HomeCell.swift */; };
 		2EE85D791FA8524F00BE8F79 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EE85D781FA8524F00BE8F79 /* HomeCell.xib */; };
 		2EE85D7B1FA8662300BE8F79 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE85D7A1FA8662300BE8F79 /* NetworkTools.swift */; };
+		2EEE78801FC50C300068509C /* SquareParentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEE787F1FC50C300068509C /* SquareParentVC.swift */; };
 		967DB8EF62502C966F16FC95 /* Pods_ClueSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3456782495E6DD95E2926630 /* Pods_ClueSwiftDemo.framework */; };
 		BC1BCEC92209FFFC070D8EC6 /* Pods_ClueSwiftDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FAEAC468DB397C014F73E5E /* Pods_ClueSwiftDemoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -66,6 +73,12 @@
 
 /* Begin PBXFileReference section */
 		240BDEFA5250BA032C7FAB55 /* Pods-ClueSwiftDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClueSwiftDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClueSwiftDemoTests/Pods-ClueSwiftDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E4C38B21FC2712C003B2D4C /* ExampleProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleProvider.swift; sourceTree = "<group>"; };
+		2E4C38B41FC27385003B2D4C /* ExampleBasicContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBasicContentView.swift; sourceTree = "<group>"; };
+		2E4C38B61FC2738C003B2D4C /* ExampleBouncesContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBouncesContentView.swift; sourceTree = "<group>"; };
+		2E4C38B81FC27391003B2D4C /* ExampleIrregularityContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleIrregularityContentView.swift; sourceTree = "<group>"; };
+		2E4C38BB1FC2772E003B2D4C /* ESTabBarController_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ESTabBarController_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4C38BC1FC27843003B2D4C /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = pop.framework; sourceTree = "<group>"; };
 		2E607FA71FB422B400C60870 /* SquareSecondItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareSecondItemVC.swift; sourceTree = "<group>"; };
 		2E607FA91FB4230000C60870 /* SquareSecondItemVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SquareSecondItemVC.storyboard; sourceTree = "<group>"; };
 		2E607FAB1FB4250B00C60870 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +122,7 @@
 		2EE85D761FA8523E00BE8F79 /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
 		2EE85D781FA8524F00BE8F79 /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
 		2EE85D7A1FA8662300BE8F79 /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		2EEE787F1FC50C300068509C /* SquareParentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareParentVC.swift; sourceTree = "<group>"; };
 		3456782495E6DD95E2926630 /* Pods_ClueSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClueSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF9E6F2C57232C9E7E40AD6 /* Pods-ClueSwiftDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClueSwiftDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClueSwiftDemoTests/Pods-ClueSwiftDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		5FAEAC468DB397C014F73E5E /* Pods_ClueSwiftDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClueSwiftDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +138,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E4C38BA1FC2772E003B2D4C /* ESTabBarController_swift.framework in Frameworks */,
+				2E4C38BD1FC27843003B2D4C /* pop.framework in Frameworks */,
 				967DB8EF62502C966F16FC95 /* Pods_ClueSwiftDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +198,10 @@
 			children = (
 				2EE85D161FA183A600BE8F79 /* AppDelegate.swift */,
 				2EE85D181FA183A600BE8F79 /* ViewController.swift */,
+				2E4C38B21FC2712C003B2D4C /* ExampleProvider.swift */,
+				2E4C38B41FC27385003B2D4C /* ExampleBasicContentView.swift */,
+				2E4C38B61FC2738C003B2D4C /* ExampleBouncesContentView.swift */,
+				2E4C38B81FC27391003B2D4C /* ExampleIrregularityContentView.swift */,
 				2EE85D6E1FA6CB3D00BE8F79 /* Tool */,
 				2EE85D611FA1DC8300BE8F79 /* Third */,
 				2EE85D491FA1842900BE8F79 /* Mine */,
@@ -239,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				2EE85D561FA1875600BE8F79 /* SquareViewController.swift */,
+				2EEE787F1FC50C300068509C /* SquareParentVC.swift */,
 				2EE85D6B1FA1DCC200BE8F79 /* SquareItemViewController.swift */,
 				2E607FA71FB422B400C60870 /* SquareSecondItemVC.swift */,
 				2E607FA91FB4230000C60870 /* SquareSecondItemVC.storyboard */,
@@ -337,6 +358,8 @@
 		9C6A52B38D4F6A98E789D62D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2E4C38BC1FC27843003B2D4C /* pop.framework */,
+				2E4C38BB1FC2772E003B2D4C /* ESTabBarController_swift.framework */,
 				3456782495E6DD95E2926630 /* Pods_ClueSwiftDemo.framework */,
 				BD3D8004DDE3808F71A7637C /* Pods_ClueSwiftDemoTests.framework */,
 				5FAEAC468DB397C014F73E5E /* Pods_ClueSwiftDemoUITests.framework */,
@@ -410,6 +433,7 @@
 				2EE85D2F1FA183A600BE8F79 /* Frameworks */,
 				2EE85D301FA183A600BE8F79 /* Resources */,
 				EA8284C5E6F37A266CD1A751 /* [CP] Copy Pods Resources */,
+				342004B2904B52B415F2EB70 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -509,13 +533,31 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClueSwiftDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		342004B2904B52B415F2EB70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClueSwiftDemoUITests/Pods-ClueSwiftDemoUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3AB4C961175805076E375B7F /* [CP] Embed Pods Frameworks */ = {
@@ -539,13 +581,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClueSwiftDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A662309FD61F95617EC82997 /* [CP] Copy Pods Resources */ = {
@@ -584,13 +629,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClueSwiftDemoTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EA8284C5E6F37A266CD1A751 /* [CP] Copy Pods Resources */ = {
@@ -614,9 +662,36 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ClueSwiftDemo/Pods-ClueSwiftDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/PGActionSheet/PGActionSheet.framework",
+				"${BUILT_PRODUCTS_DIR}/PGImagePicker/PGImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/PGImagePickerKingfisher/PGImagePickerKingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SKPhotoBrowser/SKPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PGActionSheet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PGImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PGImagePickerKingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SKPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -630,13 +705,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E4C38B91FC27392003B2D4C /* ExampleIrregularityContentView.swift in Sources */,
 				2EE85D4B1FA1846B00BE8F79 /* MainViewController.swift in Sources */,
 				2EE85D681FA1DC8F00BE8F79 /* String+Extenstion.swift in Sources */,
+				2E4C38B51FC27385003B2D4C /* ExampleBasicContentView.swift in Sources */,
+				2E4C38B71FC2738C003B2D4C /* ExampleBouncesContentView.swift in Sources */,
 				2EE85D4E1FA184A700BE8F79 /* BaseViewController.swift in Sources */,
 				2EE85D6A1FA1DC8F00BE8F79 /* UIView+Extension.swift in Sources */,
 				2E829AEE1FAB134D005513CA /* HJImageBrowser.swift in Sources */,
 				2EE85D601FA1DC0000BE8F79 /* PageManagerVC.swift in Sources */,
+				2EEE78801FC50C300068509C /* SquareParentVC.swift in Sources */,
 				2E829AF21FAB25DE005513CA /* SquareTableViewCell.swift in Sources */,
+				2E4C38B31FC2712C003B2D4C /* ExampleProvider.swift in Sources */,
 				2EE85D7B1FA8662300BE8F79 /* NetworkTools.swift in Sources */,
 				2EE85D671FA1DC8F00BE8F79 /* NSString+Extension.swift in Sources */,
 				2EE85D191FA183A600BE8F79 /* ViewController.swift in Sources */,
@@ -711,8 +791,9 @@
 /* Begin XCBuildConfiguration section */
 		2EE85D391FA183A600BE8F79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E28BB51662CFC37CF7FDAD4 /* Pods-ClueSwiftDemo.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -756,13 +837,15 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
 		2EE85D3A1FA183A600BE8F79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7332EA5712A436701BA422EC /* Pods-ClueSwiftDemo.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -798,6 +881,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -809,6 +893,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				DEVELOPMENT_TEAM = 72GL8EDUNH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = ClueSwiftDemo/Info.plist;
@@ -828,6 +916,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				DEVELOPMENT_TEAM = 72GL8EDUNH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = ClueSwiftDemo/Info.plist;

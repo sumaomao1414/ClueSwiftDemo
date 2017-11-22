@@ -29,8 +29,8 @@ class HomeViewController: BaseViewController {
         tableView.dataSource = self
         tableView.register(UINib(nibName: "HomeCell", bundle: nil), forCellReuseIdentifier: cellID)
         tableView.separatorStyle = .singleLine
-        tableView.estimatedRowHeight = 100.0
-        tableView.rowHeight = UITableViewAutomaticDimension
+//        tableView.estimatedRowHeight = 100.0
+//        tableView.rowHeight = UITableViewAutomaticDimension
         return tableView
     }()
     
@@ -61,7 +61,7 @@ extension HomeViewController:UITableViewDataSource,UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellID, for: indexPath) as? HomeCell
-        cell?.contentLabel.text = "啊我的拉屎爱上啦开发阿拉胡康师傅爱上啦客户端啊是来打开大哈伦裤阿斯达了好快阿斯达了好快爱上啦好看阿斯达哈伦裤啊是离开阿斯达哈伦裤啊是离开爱上啦好看的阿里山付货款"
+        cell?.contentLabel.text = "啊我的拉屎爱上啦开发阿拉胡康师傅爱上啦客户端啊是来打开大哈伦裤阿斯达了好快阿斯达了好快爱上啦好看阿斯达哈伦裤啊是离开阿斯达哈伦裤啊是离开爱上啦好看的阿里山付货款啊我的拉屎爱上啦开发阿拉胡康师傅爱上啦客户端啊是来打开大哈伦裤阿斯达了好快阿斯达了好快爱上啦好看阿斯达哈伦裤啊是离开阿斯达哈伦裤啊是离开爱上啦好看的阿里山付货款"
         cell?.iconImageView.image = UIImage.init(named: "user")
         return cell!
     }
@@ -70,9 +70,9 @@ extension HomeViewController:UITableViewDataSource,UITableViewDelegate{
         return 10
     }
     
-     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 120
-    }
+//     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+//        return 100
+//    }
      func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableViewAutomaticDimension
     }

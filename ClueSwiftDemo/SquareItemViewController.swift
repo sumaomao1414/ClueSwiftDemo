@@ -11,12 +11,27 @@ import SnapKit
 import UIKit
 import SKPhotoBrowser
 
-@objc class SquareItemViewController: BaseViewController ,HJImageBrowserDelegate{
+protocol TQScrollViewDelegate : NSObjectProtocol{
+    func tqScrollViewDidScroll(controller:SquareItemViewController,scrollY :CGFloat)
+}
+
+@objc class SquareItemViewController: SquareParentVC,HJImageBrowserDelegate{
     
     let identyfierTable1 = "SquareTableViewCell"
     
+    var delegate:TQScrollViewDelegate?
     var theImage = UIImage()
     var theIndex = 1000
+    
+//    required init(coder aDecoder: NSCoder) {
+//        super.init(coder: aDecoder)!
+//    }
+//
+//    init() {
+//        super.init(nibName: nil, bundle: "")
+//        //Do whatever you want here
+//    }
+  
     
     override func viewDidLoad() {
         
@@ -33,6 +48,11 @@ import SKPhotoBrowser
         mainTableView.dataSource = self;
         mainTableView.delegate = self;
         mainTableView.estimatedRowHeight = 143 * kSCREEN_SCALE;
+        mainTableView.rowHeight = UITableViewAutomaticDimension;
+        
+        mainTableView.showsVerticalScrollIndicator = false;
+        mainTableView.showsHorizontalScrollIndicator = false;
+        
         mainTableView.register(UINib(nibName: "SquareTableViewCell", bundle: nil), forCellReuseIdentifier: identyfierTable1)
         self.view.addSubview(mainTableView)
     }
@@ -43,9 +63,17 @@ import SKPhotoBrowser
         //        点击图片之后，放大过程中显示的那张图片
         return theImage
     }
+    
+//    override func scrollViewDidScroll(_ scrollView: UIScrollView) {
+//        delegate?.tqScrollViewDidScroll(controller: self,scrollY: scrollView.contentOffset.y)
+//    }
 }
 
 extension   SquareItemViewController:UITableViewDataSource,UITableViewDelegate{
+    
+//    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+//        tqScrollViewDidScroll(scrollView.contentOffset.y)
+//    }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell : SquareTableViewCell = tableView.dequeueReusableCell(withIdentifier: identyfierTable1, for: indexPath) as! SquareTableViewCell

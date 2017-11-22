@@ -8,6 +8,8 @@
 
 import Foundation
 import UIKit
+import Alamofire
+import ESTabBarController_swift
 
 class MainViewController: UITabBarController {
     

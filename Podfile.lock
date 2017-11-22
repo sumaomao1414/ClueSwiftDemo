@@ -1,32 +1,51 @@
 PODS:
   - Alamofire (4.1.0)
   - DZNEmptyDataSet (1.8.1)
+  - ESTabBarController-swift (2.5)
   - HandyJSON (1.2.1)
+  - Kingfisher (4.2.0)
   - MJExtension (3.0.13)
-  - SDCycleScrollView (1.73):
-    - SDWebImage (~> 4.0.0)
-  - SDWebImage (4.0.0):
-    - SDWebImage/Core (= 4.0.0)
-  - SDWebImage/Core (4.0.0)
-  - SnapKit (3.0.2)
+  - PGActionSheet (1.0.6)
+  - PGImagePicker (1.1.0):
+    - PGActionSheet
+  - PGImagePickerKingfisher (1.0.3):
+    - Kingfisher
+    - PGImagePicker
+  - SDCycleScrollView (1.74):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.2.2):
+    - SDWebImage/Core (= 4.2.2)
+  - SDWebImage/Core (4.2.2)
+  - SKPhotoBrowser (4.1.1)
+  - SnapKit (4.0.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.1.0)
   - DZNEmptyDataSet
+  - ESTabBarController-swift
   - HandyJSON (~> 1.2.1)
+  - Kingfisher
   - MJExtension
+  - PGImagePickerKingfisher
   - SDCycleScrollView (~> 1.64)
-  - SnapKit (~> 3.0.2)
+  - SKPhotoBrowser
+  - SnapKit
 
 SPEC CHECKSUMS:
   Alamofire: e266cf991b933498df791e645e0d8ac294492153
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  ESTabBarController-swift: 8daa432f2a9be8ebd25101dc46c84472fd760512
   HandyJSON: c20190bca46cc6e7fb87073df63ecbe90770a7b0
+  Kingfisher: 9ee7e788d8ba07c3f21ce0d43f33cec310a4f781
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
-  SDCycleScrollView: d0fd5fe40a80918371fd8939214eb3be81033d83
-  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
-  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+  PGActionSheet: 99d5b98dd4957acfeab56d0349f069a53bfda064
+  PGImagePicker: dfaf94226ac443304dd7440c924588e4e8cf3ad2
+  PGImagePickerKingfisher: a9e1fa9b0105e800ac6c6e887f0874328c039b08
+  SDCycleScrollView: f821215226f6146a35470721a9d6e83ec5cfb04b
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
+  SKPhotoBrowser: aa02de50f56d80fac23f543e40847af6b360e4b3
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
 
-PODFILE CHECKSUM: fbfc976db69fdee6210930b534ca28447162c1ca
+PODFILE CHECKSUM: 1f021cdd224e59f47012c2b75623685cab0016bd
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.3.1

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '8D41DCD8A644F47DA0992FE4A4970C86'
+               BlueprintIdentifier = '04372F80E55B75110E6B545B56C758B2'
                BlueprintName = 'PGActionSheet'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'PGActionSheet.framework'>
